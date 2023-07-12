@@ -1,0 +1,769 @@
+{
+  "general": {
+    "userAgentRegexes": [],
+    "replaceStrings": [],
+    "languages": [],
+    "publicKey": "lywznz",
+    "deviceRegKey": "r82h9nr3979ra63wvppp52mk84",
+    "appName": "W3Schools",
+    "initialUrl": "https://www.w3schools.com",
+    "screenOrientation": {
+      "iphone": null,
+      "ipad": null,
+      "androidPhone": null,
+      "androidTablet": null
+    },
+    "enableWindowOpen": true,
+    "userAgentAdd": "gonative",
+    "forceUserAgent": "",
+    "iosUserAgentAdd": "gonative",
+    "iosForceUserAgent": "",
+    "androidUserAgentAdd": "gonative",
+    "androidForceUserAgent": "",
+    "nativeBridgeUrls": [],
+    "iosBundleId": "io.gonative.ios.lywznz",
+    "androidPackageName": "io.gonative.android.lywznz",
+    "iosCustomHeaders": {},
+    "androidCustomHeaders": {}
+  },
+  "navigation": {
+    "ignorePageFinishedRegexes": [],
+    "redirects": [],
+    "iosSettings": {},
+    "iosPullToRefresh": true,
+    "androidPullToRefresh": false,
+    "iosConnectionOfflineTime": 10,
+    "androidConnectionOfflineTime": 10,
+    "regexInternalExternal": {
+      "active": true,
+      "rules": [
+        {
+          "internal": false,
+          "label": "Non-web links",
+          "regex": "^(?!https?://).*"
+        },
+        {
+          "internal": false,
+          "label": "Facebook",
+          "regex": "https?://([-\\w]+\\.)*facebook\\.com.*"
+        },
+        {
+          "internal": false,
+          "label": "Twitter",
+          "regex": "https?://([-\\w]+\\.)*twitter\\.com/.*"
+        },
+        {
+          "internal": false,
+          "label": "Instagram",
+          "regex": "https?://([-\\w]+\\.)*instagram\\.com/.*"
+        },
+        {
+          "internal": false,
+          "label": "Google Maps",
+          "regex": "https?://maps\\.google\\.com.*"
+        },
+        {
+          "internal": false,
+          "label": "Google Maps Search",
+          "regex": "https?://([-\\w]+\\.)*google\\.com/maps/search/.*"
+        },
+        {
+          "internal": false,
+          "label": "LinkedIn",
+          "regex": "https?://([-\\w]+\\.)*linkedin\\.com/.*"
+        },
+        {
+          "internal": true,
+          "label": "All Other Links",
+          "regex": ".*"
+        }
+      ]
+    },
+    "deepLinkDomains": {
+      "enableAndroidApplinks": false,
+      "domains": []
+    },
+    "navigationTitles": {
+      "active": true,
+      "titles": []
+    },
+    "iosShowRefreshButton": false,
+    "androidShowRefreshButton": false,
+    "actionConfig": {
+      "active": true,
+      "actions": [],
+      "actionSelection": []
+    },
+    "navigationLevels": {
+      "active": true,
+      "levels": []
+    },
+    "sidebarNavigation": {
+      "menuSelectionConfig": {
+        "redirectLocations": [
+          {
+            "regex": ".*",
+            "menuName": "default",
+            "loggedIn": true
+          }
+        ]
+      },
+      "menus": [
+        {
+          "active": false,
+          "items": [
+            {
+              "url": "https://www.w3schools.com/html/default.asp",
+              "label": "Learn html",
+              "subLinks": []
+            },
+            {
+              "url": "https://www.w3schools.com/tags/default.asp",
+              "label": "Reference",
+              "subLinks": []
+            },
+            {
+              "url": "https://www.w3schools.com/css/default.asp",
+              "label": "Learn css",
+              "subLinks": []
+            },
+            {
+              "url": "https://www.w3schools.com/cssref/default.asp",
+              "label": "Reference",
+              "subLinks": []
+            },
+            {
+              "url": "https://www.w3schools.com/css/css_rwd_intro.asp",
+              "label": "Learn rwd",
+              "subLinks": []
+            },
+            {
+              "url": "https://www.w3schools.com/bootstrap/bootstrap_ver.asp",
+              "label": "Learn bootstrap",
+              "subLinks": []
+            },
+            {
+              "url": "https://www.w3schools.com/w3css/default.asp",
+              "label": "Learn w3.css",
+              "subLinks": []
+            },
+            {
+              "url": "https://www.w3schools.com/w3css/w3css_references.asp",
+              "label": "Reference",
+              "subLinks": []
+            },
+            {
+              "url": "https://www.w3schools.com/sass/default.php",
+              "label": "Learn sass",
+              "subLinks": []
+            },
+            {
+              "url": "https://www.w3schools.com/sass/sass_functions_string.php",
+              "label": "Reference",
+              "subLinks": []
+            },
+            {
+              "url": "https://www.w3schools.com/colors/default.asp",
+              "label": "Learn colors",
+              "subLinks": []
+            },
+            {
+              "url": "https://www.w3schools.com/colors/colors_fs595.asp",
+              "label": "Reference",
+              "subLinks": []
+            },
+            {
+              "url": "https://www.w3schools.com/icons/default.asp",
+              "label": "Learn icons",
+              "subLinks": []
+            },
+            {
+              "url": "https://www.w3schools.com/icons/icons_reference.asp",
+              "label": "Reference",
+              "subLinks": []
+            },
+            {
+              "url": "https://www.w3schools.com/graphics/svg_intro.asp",
+              "label": "Learn svg",
+              "subLinks": []
+            },
+            {
+              "url": "https://www.w3schools.com/graphics/svg_reference.asp",
+              "label": "Reference",
+              "subLinks": []
+            },
+            {
+              "url": "https://www.w3schools.com/graphics/canvas_intro.asp",
+              "label": "Learn canvas",
+              "subLinks": []
+            },
+            {
+              "url": "https://www.w3schools.com/jsref/api_canvas.asp",
+              "label": "Reference",
+              "subLinks": []
+            },
+            {
+              "url": "https://www.w3schools.com/graphics/default.asp",
+              "label": "Learn graphics",
+              "subLinks": []
+            },
+            {
+              "url": "https://www.w3schools.com/howto/default.asp",
+              "label": "Learn how to",
+              "subLinks": []
+            },
+            {
+              "url": "https://www.w3schools.com/ai/default.asp",
+              "label": "Learn ai",
+              "subLinks": []
+            },
+            {
+              "url": "https://www.w3schools.com/gen_ai/index.php",
+              "label": "Learn generative ai",
+              "subLinks": []
+            },
+            {
+              "url": "https://www.w3schools.com/gen_ai/chatgpt-3-5/index.php",
+              "label": "Learn chatgpt-3.5",
+              "subLinks": []
+            },
+            {
+              "url": "https://www.w3schools.com/gen_ai/chatgpt-4/index.php",
+              "label": "Learn chatgpt-4",
+              "subLinks": []
+            },
+            {
+              "url": "https://www.w3schools.com/gen_ai/bard/index.php",
+              "label": "Learn google bard",
+              "subLinks": []
+            },
+            {
+              "url": "https://www.w3schools.com/python/python_ml_getting_started.asp",
+              "label": "Learn machine learning",
+              "subLinks": []
+            },
+            {
+              "url": "https://www.w3schools.com/datascience/default.asp",
+              "label": "Learn data science",
+              "subLinks": []
+            },
+            {
+              "url": "https://www.w3schools.com/python/numpy/default.asp",
+              "label": "Learn numpy",
+              "subLinks": []
+            },
+            {
+              "url": "https://www.w3schools.com/python/pandas/default.asp",
+              "label": "Learn pandas",
+              "subLinks": []
+            },
+            {
+              "url": "https://www.w3schools.com/python/scipy/index.php",
+              "label": "Learn scipy",
+              "subLinks": []
+            },
+            {
+              "url": "https://www.w3schools.com/python/matplotlib_intro.asp",
+              "label": "Learn matplotlib",
+              "subLinks": []
+            },
+            {
+              "url": "https://www.w3schools.com/statistics/index.php",
+              "label": "Learn statistics",
+              "subLinks": []
+            },
+            {
+              "url": "https://www.w3schools.com/excel/index.php",
+              "label": "Learn excel",
+              "subLinks": []
+            },
+            {
+              "url": "https://www.w3schools.com/googlesheets/index.php",
+              "label": "Learn google sheets",
+              "subLinks": []
+            },
+            {
+              "url": "https://www.w3schools.com/spaces/index.php",
+              "label": "Create a website hot!",
+              "subLinks": []
+            },
+            {
+              "url": "https://www.w3schools.com/where_to_start.asp",
+              "label": "Where to start",
+              "subLinks": []
+            },
+            {
+              "url": "https://www.w3schools.com/w3css/w3css_templates.asp",
+              "label": "Web templates",
+              "subLinks": []
+            },
+            {
+              "url": "https://www.w3schools.com/browsers/default.asp",
+              "label": "Web statistics",
+              "subLinks": []
+            },
+            {
+              "url": "https://campus.w3schools.com/",
+              "label": "Web certificates",
+              "subLinks": []
+            },
+            {
+              "url": "https://www.w3schools.com/whatis/default.asp",
+              "label": "Web development",
+              "subLinks": []
+            },
+            {
+              "url": "https://www.w3schools.com/tryit/default.asp",
+              "label": "Code editor",
+              "subLinks": []
+            },
+            {
+              "url": "https://www.w3schools.com/typingspeed/default.asp",
+              "label": "Test your typing speed",
+              "subLinks": []
+            },
+            {
+              "url": "https://www.w3schools.com/codegame/index.html",
+              "label": "Play a code game",
+              "subLinks": []
+            },
+            {
+              "url": "https://www.w3schools.com/cybersecurity/index.php",
+              "label": "Cyber security",
+              "subLinks": []
+            },
+            {
+              "url": "https://www.w3schools.com/accessibility/index.php",
+              "label": "Accessibility",
+              "subLinks": []
+            },
+            {
+              "url": "https://campus.w3schools.com/pages/newsletter",
+              "label": "Join our newsletter",
+              "subLinks": []
+            },
+            {
+              "url": "https://www.w3schools.com/js/default.asp",
+              "label": "Learn javascript",
+              "subLinks": []
+            },
+            {
+              "url": "https://www.w3schools.com/jsref/default.asp",
+              "label": "Reference",
+              "subLinks": []
+            },
+            {
+              "url": "https://www.w3schools.com/react/default.asp",
+              "label": "Learn react",
+              "subLinks": []
+            },
+            {
+              "url": "https://www.w3schools.com/jquery/default.asp",
+              "label": "Learn jquery",
+              "subLinks": []
+            },
+            {
+              "url": "https://www.w3schools.com/jquery/jquery_ref_overview.asp",
+              "label": "Reference",
+              "subLinks": []
+            },
+            {
+              "url": "https://www.w3schools.com/vue/index.php",
+              "label": "Learn vue",
+              "subLinks": []
+            },
+            {
+              "url": "https://www.w3schools.com/vue/vue_ref_builtin-attributes.php",
+              "label": "Reference",
+              "subLinks": []
+            },
+            {
+              "url": "https://www.w3schools.com/angular/default.asp",
+              "label": "Learn angularjs",
+              "subLinks": []
+            },
+            {
+              "url": "https://www.w3schools.com/angular/angular_ref_directives.asp",
+              "label": "Reference",
+              "subLinks": []
+            },
+            {
+              "url": "https://www.w3schools.com/js/js_json_intro.asp",
+              "label": "Learn json",
+              "subLinks": []
+            },
+            {
+              "url": "https://www.w3schools.com/jsref/jsref_obj_json.asp",
+              "label": "Reference",
+              "subLinks": []
+            },
+            {
+              "url": "https://www.w3schools.com/js/js_ajax_intro.asp",
+              "label": "Learn ajax",
+              "subLinks": []
+            },
+            {
+              "url": "https://www.w3schools.com/appml/default.asp",
+              "label": "Learn appml",
+              "subLinks": []
+            },
+            {
+              "url": "https://www.w3schools.com/appml/appml_reference.asp",
+              "label": "Reference",
+              "subLinks": []
+            },
+            {
+              "url": "https://www.w3schools.com/w3js/default.asp",
+              "label": "Learn w3.js",
+              "subLinks": []
+            },
+            {
+              "url": "https://www.w3schools.com/w3js/w3js_references.asp",
+              "label": "Reference",
+              "subLinks": []
+            },
+            {
+              "url": "https://www.w3schools.com/python/default.asp",
+              "label": "Learn python",
+              "subLinks": []
+            },
+            {
+              "url": "https://www.w3schools.com/python/python_reference.asp",
+              "label": "Reference",
+              "subLinks": []
+            },
+            {
+              "url": "https://www.w3schools.com/sql/default.asp",
+              "label": "Learn sql",
+              "subLinks": []
+            },
+            {
+              "url": "https://www.w3schools.com/sql/sql_ref_keywords.asp",
+              "label": "Reference",
+              "subLinks": []
+            },
+            {
+              "url": "https://www.w3schools.com/mysql/default.asp",
+              "label": "Learn mysql",
+              "subLinks": []
+            },
+            {
+              "url": "https://www.w3schools.com/mysql/mysql_datatypes.asp",
+              "label": "Reference",
+              "subLinks": []
+            },
+            {
+              "url": "https://www.w3schools.com/php/default.asp",
+              "label": "Learn php",
+              "subLinks": []
+            },
+            {
+              "url": "https://www.w3schools.com/php/php_ref_overview.asp",
+              "label": "Reference",
+              "subLinks": []
+            },
+            {
+              "url": "https://www.w3schools.com/java/default.asp",
+              "label": "Learn java",
+              "subLinks": []
+            },
+            {
+              "url": "https://www.w3schools.com/java/java_ref_keywords.asp",
+              "label": "Reference",
+              "subLinks": []
+            },
+            {
+              "url": "https://www.w3schools.com/c/index.php",
+              "label": "Learn c",
+              "subLinks": []
+            },
+            {
+              "url": "https://www.w3schools.com/cpp/default.asp",
+              "label": "Learn c++",
+              "subLinks": []
+            },
+            {
+              "url": "https://www.w3schools.com/cs/index.php",
+              "label": "Learn c#",
+              "subLinks": []
+            },
+            {
+              "url": "https://www.w3schools.com/r/default.asp",
+              "label": "Learn r",
+              "subLinks": []
+            },
+            {
+              "url": "https://www.w3schools.com/kotlin/index.php",
+              "label": "Learn kotlin",
+              "subLinks": []
+            },
+            {
+              "url": "https://www.w3schools.com/go/index.php",
+              "label": "Learn go",
+              "subLinks": []
+            },
+            {
+              "url": "https://www.w3schools.com/django/index.php",
+              "label": "Learn django",
+              "subLinks": []
+            },
+            {
+              "url": "https://www.w3schools.com/django/django_ref_template_tags.php",
+              "label": "Reference",
+              "subLinks": []
+            },
+            {
+              "url": "https://www.w3schools.com/postgresql/index.php",
+              "label": "Learn postgresql",
+              "subLinks": []
+            },
+            {
+              "url": "https://www.w3schools.com/typescript/index.php",
+              "label": "Learn typescript",
+              "subLinks": []
+            },
+            {
+              "url": "https://www.w3schools.com/asp/default.asp",
+              "label": "Learn asp",
+              "subLinks": []
+            },
+            {
+              "url": "https://www.w3schools.com/asp/asp_ref_vbscript_functions.asp",
+              "label": "Reference",
+              "subLinks": []
+            },
+            {
+              "url": "https://www.w3schools.com/nodejs/default.asp",
+              "label": "Learn node.js",
+              "subLinks": []
+            },
+            {
+              "url": "https://www.w3schools.com/nodejs/ref_modules.asp",
+              "label": "Reference",
+              "subLinks": []
+            },
+            {
+              "url": "https://www.w3schools.com/nodejs/nodejs_raspberrypi.asp",
+              "label": "Learn raspberry pi",
+              "subLinks": []
+            },
+            {
+              "url": "https://www.w3schools.com/git/default.asp",
+              "label": "Learn git",
+              "subLinks": []
+            },
+            {
+              "url": "https://www.w3schools.com/mongodb/index.php",
+              "label": "Learn mongodb",
+              "subLinks": []
+            },
+            {
+              "url": "https://www.w3schools.com/aws/index.php",
+              "label": "Learn aws cloud",
+              "subLinks": []
+            },
+            {
+              "url": "https://www.w3schools.com/xml/default.asp",
+              "label": "Learn xml",
+              "subLinks": []
+            },
+            {
+              "url": "https://www.w3schools.com/xml/dom_nodetype.asp",
+              "label": "Reference",
+              "subLinks": []
+            },
+            {
+              "url": "https://www.w3schools.com/bootcamp/index.php",
+              "label": "Learn more",
+              "subLinks": []
+            }
+          ],
+          "name": "default"
+        }
+      ]
+    },
+    "tabNavigation": {
+      "active": false,
+      "tabMenus": [],
+      "tabSelectionConfig": []
+    },
+    "androidShowOfflinePage": true,
+    "iosShowOfflinePage": true,
+    "toolbarNavigation": {
+      "enabled": false,
+      "visibilityByPages": "allPages",
+      "visibilityByBackButton": "backButtonActive",
+      "regexes": [
+        {
+          "enabled": true,
+          "regex": ".*"
+        }
+      ],
+      "items": [
+        {
+          "system": "back",
+          "titleType": "defaultText",
+          "visibility": "allPages",
+          "urlRegex": [
+            {
+              "enabled": true,
+              "regex": ".*"
+            }
+          ]
+        },
+        {
+          "system": "refresh",
+          "enabled": false,
+          "visibility": "allPages",
+          "urlRegex": [
+            {
+              "enabled": true,
+              "regex": ".*"
+            }
+          ]
+        },
+        {
+          "system": "forward",
+          "enabled": false,
+          "titleType": "defaultText",
+          "visibility": "allPages",
+          "urlRegex": [
+            {
+              "enabled": true,
+              "regex": ".*"
+            }
+          ]
+        }
+      ]
+    },
+    "maxWindows": {
+      "enabled": false,
+      "numWindows": 5,
+      "autoClose": false
+    },
+    "iosOfflinePageHtml": "",
+    "androidOfflinePageHtml": "",
+    "offlinePageHtml": ""
+  },
+  "styling": {
+    "iosLaunchScreen": {
+      "backgroundImage": "https://s3.amazonaws.com/gonativeio/images_generated/1688986246728_rp9aac1z5fg2g_FFFFFF_1_2x2.png",
+      "backgroundImageDark": "https://s3.amazonaws.com/gonativeio/images_generated/1688986246776_x553n7g86d3x6_000000_1_2x2.png",
+      "backgroundColor": "#FFFFFF",
+      "backgroundColorDark": "#000000",
+      "centerImage": "https://gonativeio.s3.amazonaws.com/uploads/uz1fbq6x65y3p_1688986214427.png",
+      "centerImageDark": "https://gonativeio.s3.amazonaws.com/uploads/uz1fbq6x65y3p_1688986214427.png"
+    },
+    "transitionInteractiveDelayMax": 0.2,
+    "menuAnimationDuration": 0.15,
+    "iosTheme": "default",
+    "androidLaunchImages": {
+      "mdpi": "https://s3.amazonaws.com/gonativeio/images_generated/1688986247084_whx25pabh8dve_180x180.9.png",
+      "hdpi": "https://s3.amazonaws.com/gonativeio/images_generated/1688986247112_zgf5531xx42xe_270x270.9.png",
+      "xhdpi": "https://s3.amazonaws.com/gonativeio/images_generated/1688986247138_7knvrd617c25a_360x360.9.png",
+      "xxhdpi": "https://s3.amazonaws.com/gonativeio/images_generated/1688986247195_anerfzcm97yjw_540x540.9.png",
+      "xxxhdpi": "https://s3.amazonaws.com/gonativeio/images_generated/1688986247290_0z984k0w01y20_720x720.9.png"
+    },
+    "androidLaunchImagesDark": {
+      "mdpi": "https://s3.amazonaws.com/gonativeio/images_generated/1688986247336_g8ak3eptkhav8_180x180.9.png",
+      "hdpi": "https://s3.amazonaws.com/gonativeio/images_generated/1688986247421_e97u52p9jgw94_270x270.9.png",
+      "xhdpi": "https://s3.amazonaws.com/gonativeio/images_generated/1688986247496_t5r3u20k4pt78_360x360.9.png",
+      "xxhdpi": "https://s3.amazonaws.com/gonativeio/images_generated/1688986247551_rkmk25k4hwwjg_540x540.9.png",
+      "xxxhdpi": "https://s3.amazonaws.com/gonativeio/images_generated/1688986247656_b4uadzgkbe8p0_720x720.9.png"
+    },
+    "androidTabPressedBackgroundColor": "#CCCCCC",
+    "androidTabPressedBackgroundColorDark": "#999999",
+    "androidBackgroundColor": "#FFFFFF",
+    "androidBackgroundColorDark": "#333333",
+    "icon": "https://gonativeio.s3.amazonaws.com/uploads/uz1fbq6x65y3p_1688986214427.png",
+    "iosIcon": "https://gonativeio.s3.amazonaws.com/uploads/uz1fbq6x65y3p_1688986214427.png",
+    "iosDarkMode": "auto",
+    "iosEnableBlurInStatusBar": false,
+    "iosStatusBarStyle": "auto",
+    "iosEnableOverlayInStatusBar": false,
+    "iosStatusBarBackgroundColor": "#ffffffff",
+    "iosStatusBarBackgroundColorDark": "#000000",
+    "androidStatusBarStyle": "auto",
+    "androidEnableOverlayInStatusBar": false,
+    "androidStatusBarBackgroundColor": "#5C5C5C",
+    "androidStatusBarBackgroundColorDark": "#333333",
+    "iosTintColor": "#007aff",
+    "iosTintColorDark": "#adc5dc",
+    "androidIcon": "https://gonativeio.s3.amazonaws.com/uploads/n9adx99ztyxje_1688986179491.png",
+    "androidSplashBackgroundColor": "#FFFFFF",
+    "androidSplashBackgroundColorDark": "#000000",
+    "androidTheme": "auto",
+    "androidAccentColor": "#009688",
+    "androidAccentColorDark": "#80cbc4",
+    "androidPullToRefreshColor": "#1E496E",
+    "androidPullToRefreshColorDark": "#FFFFFF",
+    "androidWebviewTextZoom": null,
+    "hideWebviewAlpha": 0.5,
+    "androidSwipeNavigationBackgroundColor": "#FFFFFF",
+    "androidSwipeNavigationBackgroundColorDark": "#333333",
+    "androidSwipeNavigationActiveColor": "#000000",
+    "androidSwipeNavigationActiveColorDark": "#FFFFFF",
+    "androidSwipeNavigationInactiveColor": "#666666",
+    "androidSwipeNavigationInactiveColorDark": "#666666",
+    "navigationTitleImageLocation": "assets/defaults/logo1_white_padded.png",
+    "navigationTitleImageLocationDark": "assets/defaults/logo1_white_padded.png",
+    "iosTitleColor": "#333333",
+    "iosTitleColorDark": "#adc5dc",
+    "iosNavigationBarTintColor": "#f8f8f8",
+    "iosNavigationBarTintColorDark": "#333333",
+    "androidActionBarBackgroundColor": "#FFFFFF",
+    "androidActionBarBackgroundColorDark": "#333333",
+    "androidHeaderImage": "assets/defaults/logo1_white_padded.png",
+    "androidHeaderImageDark": "assets/defaults/logo1_white_padded.png",
+    "androidActionBarForegroundColor": "#1E496E",
+    "androidActionBarForegroundColorDark": "#FFFFFF",
+    "iosSidebarBackgroundColor": "#f8f8f8",
+    "iosSidebarBackgroundColorDark": "#333333",
+    "iosSidebarFont": "Default",
+    "iosHeaderImage": "https://gonativeio.s3.amazonaws.com/uploads/uz1fbq6x65y3p_1688986214427.png",
+    "iosHeaderImageDark": "https://gonativeio.s3.amazonaws.com/uploads/uz1fbq6x65y3p_1688986214427.png",
+    "iosSidebarTextColor": "#333333",
+    "iosSidebarTextColorDark": "#adc5dc",
+    "androidSidebarBackgroundColor": "#FFFFFF",
+    "androidSidebarBackgroundColorDark": "#333333",
+    "androidSidebarForegroundColor": "#1E496E",
+    "androidSidebarForegroundColorDark": "#FFFFFF",
+    "androidSidebarSeparatorColor": "#CCCCCC",
+    "androidSidebarSeparatorColorDark": "#666666",
+    "androidSidebarHighlightColor": "#1E496E",
+    "androidSidebarHighlightColorDark": "#FFFFFF",
+    "androidShowLogoInSideBar": true,
+    "androidShowAppNameInSideBar": true,
+    "androidTabBarBackgroundColor": "#FFFFFF",
+    "androidTabBarBackgroundColorDark": "#333333",
+    "androidTabBarTextColor": "#949494",
+    "androidTabBarTextColorDark": "#FFFFFF",
+    "androidTabBarIndicatorColor": "#1E496E",
+    "androidTabBarIndicatorColorDark": "#666666",
+    "iosTabBarTintColor": "#f8f8f8",
+    "iosTabBarTintColorDark": "#333333",
+    "androidShowSplash": true,
+    "disableAnimations": false,
+    "navigationTitleImage": false,
+    "androidHideTitleInActionBar": false,
+    "showNavigationBar": false,
+    "showActionBar": false
+  },
+  "permissions": {
+    "usesGeolocation": false,
+    "iosLocationUsageDescription": "",
+    "iosCameraUsageDescription": "",
+    "enableWebRTC": false,
+    "androidDownloadToPublicStorage": false,
+    "iOSATTUserTrackingDescription": "",
+    "iOSRequestATTConsentOnLoad": false
+  },
+  "developmentTools": {
+    "enableWebConsoleLogs": false
+  },
+  "services": {
+    "oneSignal": {
+      "active": false
+    }
+  }
+}
